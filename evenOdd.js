@@ -1,0 +1,13 @@
+// Print the odd numbers less than 100 :)
+
+for (var x=0; x<=100; x++) {
+    if (x === 0) {
+            console.log(x +  " is even");
+    }
+    else if (x % 2 === 0) {
+            console.log(x + " is even");   
+    }
+    else {
+            console.log(x + " is odd");
+    }
+}
